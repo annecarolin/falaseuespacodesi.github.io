@@ -1,0 +1,173 @@
+/*  Gerais  */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*  Barra de Navegação */
+header, .navbar{
+    background-color: #353D41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+
+/*  Slider  */
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color:#FFF;
+}
+
+#main-btn{
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #65DAF9;
+} 
+
+.corousel-indicators .active{
+    background-color: #65DAF9;
+}
+
+
+/*  Sobre a empresa */
+
+#about-area{
+    background-color: #F9F9F9;
+}
+
+    /*  Definições do Título - 'Sobre hDC'*/
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+    /*  Linha logo abaico do Título - 'Sobre hDC'*/
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%
+}
+
+    /*  Definições do Subtítulo - 'Uma agencia que pensa no futuro'*/
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: hold;
+}
+
+    /*  Definições da lista de diferenciais */
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+    
+    /*  Definição da distancia entre as linhas do checklist     */
+#about-list li{
+    line-height: 30px;
+}
+
+    /*  Cor do icone de check */
+#about-list i{
+    color: #65DAF9;
+    margin-right: 15px;
+}
+
+
+/*    Serviços    */
+
+    /*  Definição do texto de cada caixa dos 6 itens de serviçõs      */
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+    /*  Definição do tamanho dos icones e dos subtitulos, por exempl Aplicativos Nativos, Suporte ...*/
+.service-box i, .service-box h4{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+    /*  Definição do tamanho e alinhamento dos subtitulos h4, por exemplo Aplicativos Nativos, Suporte ...*/
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/*  Definição do hover que quando passa o mouse no item que está dentro da caixinha deixa o item com a letra colorida*/
+.service-box:hover > i, .service-box:hover > h4{
+    color: #65DAF9;
+}
+
